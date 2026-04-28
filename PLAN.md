@@ -4,4 +4,4 @@
 - [x] Add a simple "what I do" section with 3 bullets
 - [x] Add basic CSS — system font stack, max-width container, generous whitespace
 - [x] Add a contact section with an email link
-- [ ] Polish: meta tags, favicon placeholder, page title
+- [x] Polish: meta tags, favicon placeholder, page title
