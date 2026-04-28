@@ -3,19 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <title>Jeff Gulley</title>
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #fdfdfc;
+      --accent: #0b5fff;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+      font-size: 18px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 6rem 1.5rem 4rem;
+    }
+
+    section + section {
+      margin-top: 4rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0 0 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin: 0 0 1rem;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    p {
+      margin: 0 0 1rem;
+      font-size: 1.15rem;
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 1.25rem;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+    }
+
+    @media (max-width: 480px) {
+      body { font-size: 17px; }
+      main { padding: 3rem 1.25rem; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
 </head>
 <body>
-  <section>
-    <h1>Jeff Gulley</h1>
-    <p>Building robots and software at Slip Robotics.</p>
-  </section>
-  <section>
-    <h2>What I do</h2>
-    <ul>
-      <li>Design and build autonomous robotic systems for logistics.</li>
-      <li>Write software that bridges hardware, control, and the cloud.</li>
-      <li>Lead small teams shipping ambitious products fast.</li>
-    </ul>
-  </section>
+  <main>
+    <section>
+      <h1>Jeff Gulley</h1>
+      <p>Building robots and software at Slip Robotics.</p>
+    </section>
+    <section>
+      <h2>What I do</h2>
+      <ul>
+        <li>Design and build autonomous robotic systems for logistics.</li>
+        <li>Write software that bridges hardware, control, and the cloud.</li>
+        <li>Lead small teams shipping ambitious products fast.</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
